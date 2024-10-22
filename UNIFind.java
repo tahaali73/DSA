@@ -2,7 +2,7 @@ public class UNIFind{
     public static void main(String[] args)
     {
      int N = StdIn.readInt();
-     U uf = new U(N);
+     quickUnion uf = new quickUnion(N);
      while (!StdIn.isEmpty())
      {
      int p = StdIn.readInt();
