@@ -38,7 +38,6 @@ public class UnionF{
             sz[p] += sz[q]; 
         }
         count --;
-
     }
     public int count(){
         return count;
